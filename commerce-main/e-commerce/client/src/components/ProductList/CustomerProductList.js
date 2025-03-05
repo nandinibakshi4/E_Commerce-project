@@ -8,6 +8,7 @@ const ProductListCustomer = (props) => {
   const [cartProducts, setCartProducts] = useState([]);
   const customerId = sessionStorage.getItem("customerId");
   const [address, setAddress] = useState("");
+  const [proimgs, setProimgs] =useState("");
 
   useEffect(() => {
     axios
@@ -159,6 +160,7 @@ const ProductListCustomer = (props) => {
                     <td>{product.productId}</td>
                     <td>{product.name}</td>
                     <td>{product.price}</td>
+                    
                     <td>
                       <input
                         type="number"

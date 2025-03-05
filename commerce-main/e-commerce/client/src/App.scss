@@ -19,3 +19,21 @@
   display: flex;
   flex-direction: row-reverse;
 }
+.login-Register-container {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.admin-container button {
+ 
+  font-size: 16px;
+}
+input {
+  border: solid 1px black !important;
+}
+.admin-container table th, .admin-container table td {
+  border: 1px solid #000000;
+  padding: 8px 20px;
+}
+body{
+overflow-x:hidden;
+}
